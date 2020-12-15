@@ -4,7 +4,7 @@
 
 ## Nmap Scan
 
-``` # Nmap 7.91 scan initiated Tue Dec 15 16:06:17 2020 as: nmap -sC -sV -oN nmap/initial 10.10.44.16
+``` #Nmap 7.91 scan initiated Tue Dec 15 16:06:17 2020 as: nmap -sC -sV -oN nmap/initial 10.10.44.16
  Nmap scan report for 10.10.44.16
 Host is up (0.62s latency).
 Not shown: 997 filtered ports
@@ -47,7 +47,7 @@ now we can inject some sql code to access the database also we can try union bas
 
 ## Enumeration
 
-and found the username and the ssh password
+after found the username and the ssh password
 
 we are on the box
 
