@@ -53,8 +53,8 @@ we are on the box
 
 sudo -l 
 
-## User jake may run the following commands on the-marketplace:
-##    (michael) NOPASSWD: /opt/backups/backup.sh
+User jake may run the following commands on the-marketplace:
+   (michael) NOPASSWD: /opt/backups/backup.sh
 
 we can abuse tar to gain access on the machine
 
