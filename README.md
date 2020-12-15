@@ -2,10 +2,10 @@
 # Mayank Srivastava | 15 dec 2020
 --------------------------------------------------
 
-# Nmap Scan
+## Nmap Scan
 
-# Nmap 7.91 scan initiated Tue Dec 15 16:06:17 2020 as: nmap -sC -sV -oN nmap/initial 10.10.44.16
-``` Nmap scan report for 10.10.44.16
+``` # Nmap 7.91 scan initiated Tue Dec 15 16:06:17 2020 as: nmap -sC -sV -oN nmap/initial 10.10.44.16
+ Nmap scan report for 10.10.44.16
 Host is up (0.62s latency).
 Not shown: 997 filtered ports
 PORT      STATE SERVICE VERSION
